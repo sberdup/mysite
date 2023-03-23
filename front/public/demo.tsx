@@ -23,3 +23,6 @@ function headsUp(player: Resources){
 headsUp(player1);
 refillResources(player1);
 headsUp(player1);
+
+//tsc --noEmitOnError demo.tsx
+//this syntax will not output js file if there's a ts error
