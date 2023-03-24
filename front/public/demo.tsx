@@ -26,3 +26,15 @@ headsUp(player1);
 
 //tsc --noEmitOnError demo.tsx
 //this syntax will not output js file if there's a ts error
+
+const string1 = 'hello world'
+const number1 = 134
+const bool1 = true
+//3 common primitive types
+
+let wildcard : any = 'starting value'
+//when you assign type:any, TypeScript will free up typechecking on the variable
+wildcard = 2
+
+//the compiler flag noImplicitAny will stop TS from assigning 'any' to unspecified, uninferable vars
+
